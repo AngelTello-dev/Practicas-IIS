@@ -1,22 +1,24 @@
-# Practicas-IIS
-Trabajos de Introduccion en ingenieria en software
+# Proyecto Básico en Lenguaje C
 
-=== PRACTICA 1: ARREGLOS BIDIMENSIONALES ===
+Este repositorio contiene un programa de consola simple escrito en C.
 
-Ingrese el tamaño de la matriz (1-10): 3
+## Descripción
 
-=== MATRIZ ORIGINAL ===
-  42  67  35
-  71  88  92
-  14  29  60
+El programa es una utilidad de línea de comandos diseñada para realizar una tarea específica. La lógica principal se encuentra en el archivo `.c` y no requiere dependencias externas más allá de las librerías estándar de C.
 
-=== RESULTADOS ===
-Suma total de elementos: 498
-Elementos pares: 5
-Elementos impares: 4
-Elementos divisibles entre 7: 2
+## Cómo Compilar y Ejecutar
 
-=== MATRIZ TRANSPUESTA ===
-  42  71  14
-  67  88  29
-  35  92  60
+Este código ha sido diseñado para ser compilado con GCC (GNU Compiler Collection), que es el compilador estándar en la mayoría de los sistemas Linux y está disponible para Windows y macOS.
+
+### 1. Prerrequisitos
+
+- Tener un compilador de C instalado (se recomienda **GCC**).
+
+### 2. Compilación
+
+Abre una terminal en el directorio donde se encuentra el archivo `.c` y ejecuta el siguiente comando para compilar el programa.
+
+```bash
+# Reemplaza 'nombre_del_programa' con el nombre de tu archivo .c
+# Reemplaza 'ejecutable' con el nombre que quieras para el archivo de salida
+gcc nombre_del_programa.c -o ejecutable
